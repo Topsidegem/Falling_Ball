@@ -1,0 +1,56 @@
+{
+    "name": "Cilindro",
+    "maps": [
+        {
+            "name": "Girar",
+            "id": "74a402bc-e34c-472e-8677-03469f082987",
+            "actions": [
+                {
+                    "name": "Rotar",
+                    "type": "Value",
+                    "id": "42d81388-9ade-4635-bd64-1e6f5788730b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "eb5522ab-892a-400a-9e77-e60838382f6a",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotar",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "3857abed-237f-4814-a141-37c63f6c6b76",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotar",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "88352ed4-0bae-4422-bba0-6745823386ea",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotar",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
